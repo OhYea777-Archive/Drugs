@@ -194,12 +194,6 @@ public class EffectTypes {
 			return Effect.MOBSPAWNER_FLAMES;
 		case "mob_spawner_flames":
 			return Effect.MOBSPAWNER_FLAMES;
-		case "potionswirl":
-			return Effect.POTION_SWIRL;
-		case "potion swirl":
-			return Effect.POTION_SWIRL;
-		case "potion_swirl":
-			return Effect.POTION_SWIRL;
 		case "potionbreak":
 			return Effect.POTION_BREAK;
 		case "potion break":
@@ -207,7 +201,7 @@ public class EffectTypes {
 		case "potion_break":
 			return Effect.POTION_BREAK;
 		default:
-			return Effect.getByName(effect.toUpperCase()) != null ? Effect.getByName(effect.toUpperCase()) : Effect.SMOKE;
+			return Effect.valueOf(effect.toUpperCase()) != null ? Effect.valueOf(effect.toUpperCase()) : Effect.SMOKE;
 		}
 	}
 	
