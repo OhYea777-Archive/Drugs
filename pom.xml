@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
+    <groupId>com.ohyea777.drugs</groupId>
     <artifactId>Drugs</artifactId>
     <version>2.x-SNAPSHOT</version>
 
@@ -33,6 +33,7 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
+                    <compilerVersion>1.7</compilerVersion>
                 </configuration>
             </plugin>
         </plugins>
