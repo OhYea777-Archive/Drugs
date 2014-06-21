@@ -6,7 +6,7 @@
 
     <groupId>com.ohyea777.drugs</groupId>
     <artifactId>Drugs</artifactId>
-    <version>2.2-x.y-SNAPSHOT</version>
+    <version>2.2-${env.BUILD_NUMBER}-SNAPSHOT</version>
 
     <repositories>
         <repository>
